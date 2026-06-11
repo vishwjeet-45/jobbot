@@ -341,7 +341,7 @@ MIT License. Dekho [LICENSE](LICENSE) file.
 
 ## 👨‍💻 Author
 
-**DDT** — [github.com/vishwjeet-45](https://github.com/vishwjeet-45)
+**Vishwjeet** — [github.com/vishwjeet-45](https://github.com/vishwjeet-45)
 
 ---
 
