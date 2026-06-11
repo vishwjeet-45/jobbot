@@ -1,0 +1,67 @@
+[
+    {
+        "key": "find_candidates",
+        "patterns": [
+            "find candidate", "find position", "search candidate",
+            "candidate dhundo", "candidate chahiye", "skill se candidate",
+            "candidate by skill", "who has skill", "kaun jaanta hai",
+            "developer chahiye", "designer chahiye", "engineer chahiye",
+            "candidate list"
+        ],
+        "handler": "find_candidates"
+    },
+    {
+        "key": "find_jobs",
+        "patterns": [
+            "find job", "job dhundo", "job chahiye", "jobs for skill",
+            "skill ke liye job", "job list", "available jobs",
+            "job search", "kaunsi job", "jobs available",
+            "job openings", "vacancies", "naukri"
+        ],
+        "handler": "find_jobs"
+    },
+    {
+        "key": "parse_resume",
+        "patterns": [
+            "resume upload", "upload resume", "resume parse", "resume scan",
+            "cv upload", "upload cv", "resume se nikalo", "resume details",
+            "resume analysis", "scan resume", "extract resume"
+        ],
+        "handler": "parse_resume"
+    },
+    {
+        "key": "add_candidate",
+        "patterns": [
+            "add candidate", "candidate add", "naya candidate", "new candidate",
+            "candidate register", "register candidate", "candidate banao",
+            "create candidate", "add user", "candidate jodo"
+        ],
+        "handler": "add_candidate"
+    },
+    {
+        "key": "my_profile",
+        "patterns": [
+            "my profile", "mera profile", "my details", "meri details",
+            "who am i", "profile dikhao", "my info", "mera account"
+        ],
+        "handler": "my_profile"
+    },
+    {
+        "key": "help",
+        "patterns": [
+            "help", "kya kar", "what can you do", "kya puch",
+            "commands", "options", "menu", "features", "kya pooch"
+        ],
+        "handler": "help"
+    },
+    {
+        "key": "save_resume",
+        "patterns": [
+            "save karo", "save kar do", "add karo", "add kar do",
+            "candidate add karo", "haan save", "yes save", "save it",
+            "save candidate", "add candidate from resume", "jodo",
+            "add kar", "save kar", "confirm save", "resume save"
+        ],
+        "handler": "save_resume"
+    }
+]

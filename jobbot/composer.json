@@ -1,0 +1,32 @@
+{
+    "name": "ddt/jobbot",
+    "description": "A plug-and-play AI-powered Job Bot chatbot for Laravel applications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DDT",
+            "email": "dev@ddt.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0|^11.0",
+        "illuminate/http": "^10.0|^11.0",
+        "illuminate/database": "^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ddt\\JobBot\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ddt\\JobBot\\JobBotServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
